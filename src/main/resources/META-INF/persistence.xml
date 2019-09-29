@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ANALYTIK" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.analytik.data.model.Employee</class>
+    <class>org.analytik.data.model.CashBalance</class>
+    <class>org.analytik.data.model.Workflow</class>
+    <class>org.analytik.data.model.Country</class>
+    <class>org.analytik.data.model.Orders</class>
+    <class>org.analytik.data.model.OfficeAddress</class>
+    <class>org.analytik.data.model.CountryDetails</class>
+    <class>org.analytik.data.model.CustomerProject</class>
+    <class>org.analytik.data.model.SettlementCash</class>
+    <class>org.analytik.data.model.Deboarding</class>
+    <class>org.analytik.data.model.Vendor</class>
+    <class>org.analytik.data.model.Competitor</class>
+    <class>org.analytik.data.model.Process</class>
+    <class>org.analytik.data.model.CountryLanguageMapping</class>
+    <class>org.analytik.data.model.RevenueCenter</class>
+    <class>org.analytik.data.model.Hr</class>
+    <class>org.analytik.data.model.EmployeeMsi</class>
+    <class>org.analytik.data.model.WorkflowStepDetails</class>
+    <class>org.analytik.data.model.Alliances</class>
+    <class>org.analytik.data.model.ProjectResourceMapping</class>
+    <class>org.analytik.data.model.WorkflowStepActivity</class>
+    <class>org.analytik.data.model.EmployeePromotion</class>
+    <class>org.analytik.data.model.Bu</class>
+    <class>org.analytik.data.model.Salary</class>
+    <class>org.analytik.data.model.Timesheet</class>
+    <class>org.analytik.data.model.Organisation</class>
+    <class>org.analytik.data.model.ResourceFacility</class>
+    <class>org.analytik.data.model.CountryIndirectOps</class>
+    <class>org.analytik.data.model.StateLanguageMapping</class>
+    <class>org.analytik.data.model.WorkflowDetails</class>
+    <class>org.analytik.data.model.SettlementCredit</class>
+    <class>org.analytik.data.model.CreditBalance</class>
+    <class>org.analytik.data.model.Fulfillment</class>
+    <class>org.analytik.data.model.EmployeeProjectMapping</class>
+    <class>org.analytik.data.model.JobSkillMapping</class>
+    <class>org.analytik.data.model.EmployeeBonus</class>
+    <class>org.analytik.data.model.StepActivityDetails</class>
+    <class>org.analytik.data.model.CostCenter</class>
+    <class>org.analytik.data.model.Onboarding</class>
+    <class>org.analytik.data.model.Practice</class>
+    <class>org.analytik.data.model.StateZipMapping</class>
+    <class>org.analytik.data.model.HelpdeskTicket</class>
+    <class>org.analytik.data.model.EmployeeDetail</class>
+    <class>org.analytik.data.model.TaxStatement</class>
+    <class>org.analytik.data.model.RecruitmentDetails</class>
+    <class>org.analytik.data.model.SalaryBand</class>
+    <class>org.analytik.data.model.Customer</class>
+    <class>org.analytik.data.model.Activity</class>
+    <class>org.analytik.data.model.Language</class>
+    <class>org.analytik.data.model.ResourceAvailability</class>
+    <class>org.analytik.data.model.Partner</class>
+    <class>org.analytik.data.model.Management</class>
+    <class>org.analytik.data.model.Supplier</class>
+    <class>org.analytik.data.model.EmployeeProfile</class>
+    <class>org.analytik.data.model.Billing</class>
+    <class>org.analytik.data.model.Recruitment</class>
+    <class>org.analytik.data.model.Invoice</class>
+    <class>org.analytik.data.model.ProjectBuMapping</class>
+    <class>org.analytik.data.model.Helpdesk</class>
+    <class>org.analytik.data.model.Supply</class>
+    <class>org.analytik.data.model.OuOps</class>
+     <class>org.analytik.data.model.Resources</class>
+    <class>org.analytik.data.model.Continent</class>
+    <class>org.analytik.data.model.ProjectEmployeeMapping</class>
+    <class>org.analytik.data.model.State</class>
+    <class>org.analytik.data.model.OuBusinessOps</class>
+    <class>org.analytik.data.model.Settlement</class>
+    <class>org.analytik.data.model.Policy</class>
+    <class>org.analytik.data.model.CountryDirectOps</class>
+    <class>org.analytik.data.model.Project</class>
+    <class>org.analytik.data.model.WorkflowStep</class>
+    <class>org.analytik.data.model.Skillset</class>
+    <class>org.analytik.data.model.Program</class>
+    <class>org.analytik.data.model.Demand</class>
+    <class>org.analytik.data.model.Candidate</class>
+    <class>org.analytik.data.model.JobDescription</class>
+    <class>org.analytik.data.model.Religion</class>
+    <class>org.analytik.data.model.Attendance</class>
+    <class>org.analytik.data.model.ProjectBillingEmployee</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="****"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="****"/>
+    </properties>
+  </persistence-unit>
+</persistence>

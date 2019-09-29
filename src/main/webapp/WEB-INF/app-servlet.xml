@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+	<context:annotation-config />
+	
+		<!-- Configures the annotation-driven Spring MVC Controller programming model.
+	Note that, with Spring 3.0, this tag works in Servlet MVC only!  -->
+	
+	<mvc:annotation-driven />
+	
+	<tx:annotation-driven />
+	
+	<context:component-scan base-package="org.analytik.*" />
+    
+	<!-- Declare a view resolver -->
+	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />	          
+
+	<bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+		<property name="order" value="1"/>
+	    <property name="defaultViews">
+	        <list>
+	            <bean
+	                class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
+	                <property name="objectMapper">
+	                    <ref bean="JacksonObjectMapper" />
+	                </property>
+	            </bean>
+	           <!--  <ref bean="jaxbView"/> -->
+	        </list>
+	    </property>
+	</bean> 
+		
+ 	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+ 
+ 
+   <bean id="JacksonObjectMapper" class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean">
+      <property name="indentOutput" value="true"/>
+   </bean> 
+ 	<bean id="multipartResolver"  class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />  
+ 	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basename" value="classpath:messages" />
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+
+	<mvc:default-servlet-handler/>
+</beans>

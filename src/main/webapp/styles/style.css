@@ -1,0 +1,532 @@
+body.main {
+	background-color: #333;
+}
+
+table.main {
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+	min-width: 800px;
+}
+
+table.body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.container {
+	vertical-align: top;
+	padding: 2px;
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+
+table.login {
+	height: 150px;
+	vertical-align: middle;
+	border-radius: 15px;
+	padding-right: 15%;
+	padding-top: 5%;
+	width: 100%;
+	border: 1px solid gray;
+}
+
+div.login {
+	width: 30%;
+	height: 90%;
+	min-height: 350px;
+	vertical-align: top;
+	margin: 120px 0px 0px 0px;
+}
+
+div.validation {
+	margin: 10px;
+	color: red;
+}
+
+table.home {
+	vertical-align: top;
+	margin: 20px 0px 20px 0px;
+}
+
+hr.homeseparator {
+	background-color: black;
+	min-height: 1px;
+	border: 1px solid black;
+	margin: 4px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+td.home {
+	background-color: black;
+	vertical-align: top;
+	padding: 10px;
+}
+
+td.homespace {
+	min-width: 50px;
+}
+
+div.home {
+	width: 100%;
+	height: 100%;
+	min-height: 350px;
+	vertical-align: top;
+}
+
+div.header {
+	margin: 10px;
+}
+
+td.content {
+	vertical-align: top;
+	padding: 0px;
+	margin: 5px;
+	border-radius: 10px;
+	border: 2px solid #121212;
+}
+
+td.footer {
+	background-color: #222;
+	height: 40px;
+	width: 100%;
+	vertical-align: middle;
+	align: center;
+	font-size: 10pt;
+	border-radius: 5px;
+	color: #eeeeee;
+	font-family: sans-serif;
+}
+
+table.header {
+	height: 100px;
+	background-color: #222;
+	border-radius: 10px;
+	border: 0;
+	vertical-align: top;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+}
+
+td.header {
+	height: 50px;
+}
+
+td.tableheader {
+	font-size: 12pt;
+}
+
+td.textheader {
+	color: white;
+	font-size: 14pt;
+	font-family: sans-serif
+}
+
+table.content {
+	width: 99%;
+	vertical-align: top;
+	float: top;
+	align: center;
+	background-color: #222;
+	border: 5px solid #222;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+div.content {
+	padding: 10px;
+	font-size: 16pt;
+	color: #eeeeee;
+}
+
+div.homeheader {
+	padding: 5px;
+	font-size: 24pt;
+	color: white;
+}
+
+div.homeappheader {
+	padding: 5px;
+	font-size: 12pt;
+	color: white;
+}
+
+div.dialog {
+	font-size: 10pt;
+}
+
+div.actionbar {
+	padding: 5px;
+}
+
+div.status {
+	background-color: black;
+}
+
+div.popup {
+	width: 100px;
+	height: 100px;
+	color: #666;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #DADAD1;
+}
+
+div.tableheader {
+	color: #eeeeee;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #666;
+}
+
+img.header {
+	margin: 2px;
+	vertical-align: middle;
+	box-shadow: 1px 1px 1px black;
+}
+
+div.tablefooter {
+	font-size: 14pt;
+	border-radius: 5px;
+	background-color: #d9d9d9;
+}
+
+table.groupheader {
+	padding: 5px;
+}
+
+td.groupheader {
+	align: middle;
+	min-width: 100px;
+	background-color: #222;
+	border-radius: 3px;
+	padding: 5px;
+	color: white;
+	margin: 5px;
+}
+
+td.graphheader {
+	align: middle;
+	min-width: 100px;
+	background-color: #d9d9d9;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+	color: #333;
+}
+
+td.grouptext {
+	align: middle;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 2px;
+	border: 2px solid #222;
+	color: white;
+}
+
+td.tablecolumnheader {
+	align: middle;
+	font-size: 12pt;
+	min-width: 70px;
+	background-color: #777;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 2px;
+	color: #d9d9d9;
+}
+
+td.tablecolumndata {
+	align: middle;
+	font-size: 10pt;
+	min-width: 70px;
+	background-color: #444;
+	vertical-align: top;
+	border-radius: 3px;
+	padding: 2px;
+	color: white;
+}
+
+div.datatable {
+	background-color: black;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 5px solid grey;
+}
+
+input.button {
+	border-radius: 5px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #b9b9b9;
+	background-color: #f3f3f3;
+}
+
+td.logo {
+	width: 100%;
+	height: 50px;
+	padding: 2 2 2 2px;
+}
+
+td.applogo {
+	height: 50px;
+	padding: 2 2 2 2px;
+}
+
+td.applogin {
+	width: 25%;
+	height: 50px;
+	padding: 2 2 2 2px;
+	font-size: 10pt;
+	color: black;
+	align: center;
+}
+
+td.message {
+	color: white;
+}
+
+select.group {
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+}
+
+option.group {
+	border-radius: 5px;
+	border: 1px solid black;
+	color: black;
+}
+
+table.tree {
+	width: 100%;
+	min-height: 300px;
+	vertical-align: top;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+table.treeselect {
+	vertical-align: top;
+	border: 0px;
+	border-radius: 5px;
+	max-height: 40px;
+	background-color: #121212;
+	margin: 0px;
+	padding: 0px;
+}
+
+td.tree {
+	vertical-align: top;
+	float: top;
+}
+
+td.treecontent {
+	vertical-align: top;
+	float: top;
+}
+
+select.tree {
+	margin: 5 2 5 2;
+	vertical-align: middle;
+	border: 2px solid #f3f3f3;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #b9b9b9;
+	width: 120px;
+	height: 20px;
+}
+
+ul.tree {
+	font-size: 12pt;
+	padding-left: 5px;
+	margin: 0px;
+	style: none;
+	list-style-position: inside;
+	color: #999;
+}
+
+li.tree {
+	font-size: 10pt;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-position: inside;
+	color: #777;
+}
+
+input.text {
+	background-color: #121212;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+	border: 1px solid #b9b9b9;
+	color: white;
+}
+
+label.masterheader {
+	color: #aaa;
+	font-size: 10pt;
+	margin: 2px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+label.header {
+	color: #d9d9d9;
+	font-size: 9pt;
+	margin: 2px;
+	padding: 0px;
+}
+
+img.logo {
+	margin: 10px;
+}
+
+#userNameError,#passwordError {
+	padding-left: 15%;
+}
+
+nav {
+	background-color: #222;
+	border: 1px solid #241F1F;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 30px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 16pt;
+}
+
+nav>ul>li>a {
+	color: #aaa;
+	display: block;
+	line-height: 25px;
+	padding: 0 24px;
+	text-decoration: none;
+	padding-top: 2px;
+}
+
+nav>ul>li:hover { /* background-color: rgb(40, 44, 47); */
+	
+}
+
+nav>ul>li:hover>a {
+	color: rgb(255, 255, 255);
+}
+
+nav>ul>li:hover>a>.caret {
+	border-top-color: rgb(255, 255, 255);
+}
+
+a img {
+	border: 0;
+}
+
+.lineSeprator {
+	border-bottom: solid 2px white
+}
+
+input[type=submit] {
+	font-family: sans-serif;
+	font-size: 12pt;
+	margin-left: 10%;
+	}
+
+fieldset {
+	width: 99%;
+	padding: 5px 0;
+	border: 2px groove gray;
+}
+
+fieldset label {
+	width: 20%;
+	font-family: sans-serif;
+	font-size: 14pt;
+	color: white;
+	padding-top: 1%;
+	margin-left: 1%
+}
+
+fieldset input {
+	width: 30%;
+	font-family: sans-serif;
+	font-size: 14pt;
+}
+
+#fieldSetDiv > * {
+    display:inline;
+}
+
+#storegroup{
+	   margin-left: 5%;
+	   padding-top: 6%;
+}
+
+
+.ui-jqgrid{
+			font-family: sans-serif;
+		}
+		
+#ui-datepicker-div {font-size:12px;}
+
+
+ .ui-jqgrid tr.jqgrow td {
+        word-wrap: break-word; /* IE 5.5+ and CSS3 */
+        white-space: pre-wrap; /* CSS3 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        overflow: hidden;
+        height: auto;
+        vertical-align: middle;
+        padding-top: 3px;
+        padding-bottom: 3px
+    }
+    
+html body{
+	height :98vh;
+}
+
+.grid .tick {
+    stroke: grey;
+    opacity: 0.7;
+}
+.grid path {
+    stroke-width: 1;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: grey;
+  shape-rendering: crispEdges;
+  stroke-width: 2;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
