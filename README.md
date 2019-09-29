@@ -1,1 +1,1 @@
-"# Analytik" 
+Enterprise Analytics Project for multi dimensional data & variants for distributed IT ecosystem with multi stack tool chain. The research project uses the following back end data sources for analytic pipeline.
