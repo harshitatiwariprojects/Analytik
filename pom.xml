@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>			
     	<maven.compiler.source>11</maven.compiler.source>
     	<maven.compiler.target>11</maven.compiler.target>		
-    	<org.springframework.version>4.3.7.RELEASE</org.springframework.version>		
+    	<org.springframework.version>5.3.18</org.springframework.version>		
     	<com.fasterxml.jackson.version>2.10.1</com.fasterxml.jackson.version>		
     	<failOnMissingWebXml>false</failOnMissingWebXml>
 	</properties>
